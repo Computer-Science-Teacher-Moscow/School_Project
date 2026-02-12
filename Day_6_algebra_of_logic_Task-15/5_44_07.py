@@ -1,0 +1,12 @@
+def f(x):
+    B = 160 <= x <= 180
+    return B <= ((x % 35 == 0) <= (x % A == 0))
+
+
+cnt = 0
+for A in range(1, 1000):
+    if all(f(x) for x in range(1, 1000)):
+        print(A)
+        cnt += 1
+print('----' * 5)
+print(cnt)
