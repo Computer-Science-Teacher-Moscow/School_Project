@@ -1,0 +1,13 @@
+with open('1_24.txt') as file:
+    s = file.readline()
+print((ls := len(s)))
+
+m = 0
+for l in range(ls):
+    for r in range(l + m, ls):
+        c = s[l:r + 1]
+        if c.count('A') <= 350:
+            m = max(m, len(c))
+        else:
+            break
+print(m)
