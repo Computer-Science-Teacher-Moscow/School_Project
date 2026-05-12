@@ -3,7 +3,7 @@
 # with open('08.txt') as file:
 #     s = file.readline()
 #
-# num = r'([1-9][0-9]*|0)'
+# num = r'([1-9.txt][0-9.txt]*|0)'
 # expression = fr'({num}\*)*0(\*{num})*'
 # expression = fr'{expression}(\+{expression})*'
 #
@@ -16,7 +16,7 @@ from re import *
 with open('08.txt') as file:
     s = file.readline()
 
-num = r'([1-9][0-9]*|0)'
+num = r'([1-9.txt][0-9.txt]*|0)'
 expression = fr'{num}(\*{num})*'
 expression = fr'{expression}(\+{expression})*'
 

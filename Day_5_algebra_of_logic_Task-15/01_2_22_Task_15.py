@@ -48,7 +48,7 @@
 #             res.append(a2 - a1)
 # print(max(res))
 
-# №9
+# №9.txt
 # def f(x):
 #     P = 15 <= x <= 60
 #     Q = 15 <= x <= 30

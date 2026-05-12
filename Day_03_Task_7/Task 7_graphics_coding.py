@@ -63,7 +63,7 @@
 #         print(2 ** (i - 1))
 #         break
 
-# №9
+# №9.txt
 # size = 640 * 256
 # V = 170 * 2 ** 13
 # for i in range(1,300):

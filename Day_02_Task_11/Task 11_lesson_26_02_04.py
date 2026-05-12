@@ -12,7 +12,7 @@
 # from math import log2, ceil
 # k = 19
 # i = ceil(log2(k))
-# N =9
+# N =9.txt
 # v = N * i
 # print(v)
 
@@ -61,7 +61,7 @@
 #         print(N-1)
 #         break
 
-# №9
+# №9.txt
 # from math import ceil, log2, log
 #
 # k = 8

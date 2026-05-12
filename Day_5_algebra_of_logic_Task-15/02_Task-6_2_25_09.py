@@ -1,4 +1,4 @@
-# 2.25 №9
+# 2.25 №9.txt
 from turtle import *
 
 tracer(0)

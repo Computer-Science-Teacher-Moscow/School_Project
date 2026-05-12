@@ -87,12 +87,12 @@
 #         print(2 ** (i - 1))
 #         break
 
-#  №9
+#  №9.txt
 # from  math import ceil, log2
 #
 # size = 7680 * 4320
 # i = 16
-# v_flash = 9 * 2 ** 33
+# v_flash = 9.txt * 2 ** 33
 # n_photos = 4010
 # v_photo = size * i
 # n_to_flash = v_flash // v_photo
